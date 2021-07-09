@@ -1,3 +1,5 @@
+import * as React from "react";
+
 import styled from "styled-components";
 
 const Header = styled.h1`
@@ -5,7 +7,7 @@ const Header = styled.h1`
 	font-size: 4rem;
 `;
 
-function App() {
+function App(): JSX.Element {
 	return (
 		<div id="app">
 			<Header>It works!</Header>
