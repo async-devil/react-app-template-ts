@@ -3,21 +3,29 @@
     "outDir": "./lib",
     "target": "ESNext",
     "module": "esnext",
-    "noImplicitAny": true,
-    "strictNullChecks": true,
+    "jsx": "react-jsx",
+    
     "removeComments": true,
     "declaration": true,
     "sourceMap": true,
+    "resolveJsonModule": true,
+
     "strict": true,
-    "jsx": "react-jsx",
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noFallthroughCasesInSwitch": true,
+    
     "skipLibCheck": true,
     "moduleResolution": "node",
-    "resolveJsonModule": true,
+
     "isolatedModules": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
+
     "noEmit": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    
     "typeRoots": [
       "lib/**/*.d.ts",
       "lib/*.d.ts",
@@ -28,8 +36,6 @@
       "dom.iterable",
       "esnext"
     ],
-    "allowJs": true,
-    "esModuleInterop": true
   },
   "include": [
     "src"
