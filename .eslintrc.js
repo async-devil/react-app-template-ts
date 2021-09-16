@@ -34,6 +34,8 @@ const mainRules = {
 	"react/no-array-index-key": 1,
 	"react/require-default-props": 0,
 	"react/jsx-curly-newline": 0,
+
+	"import/no-extraneous-dependencies": 0,
 };
 
 const typescriptRules = {
